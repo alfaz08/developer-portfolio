@@ -169,6 +169,11 @@ footer{
   gap: 100px;
   padding: 130px 200px;
 }
+
+.social-links{
+  margin-right: 25px;
+}
+
 .footer-column{
   width: 50%;
   
