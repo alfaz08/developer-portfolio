@@ -45,15 +45,16 @@ nav a{
 /* header class*/
 .header{
   background: #FFF8F3;
-  background-image: url(../images/header_bg.png);
+  background-image: url('../images/header_bg.png'),url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right,top left;
 }
 .banner{
   padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: auto;
 }
 .banner-content{
   max-width: 500px;
@@ -191,5 +192,5 @@ footer{
   background: #FD6E0A;
   font-size: larger;
   font-weight: bold;
-  color: white;
+  border: 0;
 }
